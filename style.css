@@ -1,0 +1,116 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #b07cf7;;
+}
+
+header {
+    text-align: center;
+    padding-left: 470px;
+    padding-right: 470px;
+}
+
+h1 {
+    font-size: 90px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+p {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 25px;
+    margin-top: 0px;
+    margin-bottom: 47px;
+    color: #ffffff;
+}
+
+.blog {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.blog-item {
+    margin: 15px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.blog-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: transparent;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(255, 255, 255, 0.1) 100%);
+    z-index: 1;
+}
+
+.date {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.date p{
+    font-weight: 600;
+    font-size: 21px;
+    margin: 0px;
+    text-align: center;
+}
+
+.number {
+    font-size: 32px;
+}
+
+.item-dscr {
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    right: 20px;
+    color: #ffffff;
+    opacity: 10;
+    z-index: 2;
+}
+
+.item-dscr h4 {
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 25px;
+    text-align: left;
+}
+
+.item-dscr p {
+    font-size: 13px;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 23px;
+}
+
+.view {
+    background-color: #f72b3b;
+    display: flex;
+    justify-content: center;
+    margin: 50px 650px 50px 650px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.button {
+    color: #fff;
+    text-decoration: none;
+    user-select: none;
+    font-size: 20px;
+    font-weight: 300;
+}
